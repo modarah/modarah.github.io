@@ -4,6 +4,7 @@
 }
 .technologies {
   margin-left: 30px;
+  animation: fadein 1.5s;
 }
 .tech-logo {
   font-size: 2.5rem;
@@ -19,7 +20,7 @@
 }
 @media screen and (min-width: 768px) {
   .technologies {
-    margin: 180px 140px;
+    margin-left: 70px;
   }
   .section-title {
     margin-bottom: 25px;
@@ -32,8 +33,13 @@
     margin: 3rem 0;
   }
   .list-item {
-
     display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .technologies {
+    /* margin: 180px 140px; */
+    margin: 0px 140px;
   }
 }

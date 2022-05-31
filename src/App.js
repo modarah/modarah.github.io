@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <div className="section-divider" style={{marginTop: 120}}></div> */}
+      <div className="section-divider" style={{marginTop: 150}}></div>
       <main>
         <Routes>
           <Route path="/" element={<Hero />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path='/impressum' element={<Impressum />} />
         </Routes>
       </main>
-      {/* <div className="section-divider"></div> */}
+      <div className="section-divider"></div>
       <Footer style={{marginBottom: 0}} />
     </div>
   );

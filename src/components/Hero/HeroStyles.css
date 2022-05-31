@@ -38,7 +38,9 @@
     flex-direction: unset;
     /* height: 75vh; */
     justify-content: space-between;
-    margin: 180px 140px;
+    /* margin: 180px 140px; */
+    margin: 0px 140px;
+    animation: fadein 1.5s;
   }
   .hero-text {
     /* margin-left: 185px; */
@@ -56,8 +58,8 @@
     border-radius: 10px;
     color: #d4c0c0;
     background-color: #3d1f38;
-    background-color: #925c8e;
-    background-color: #925c8e;
+    /* background-color: #925c8e;
+    background-color: #925c8e; */
     /* border-color: #1f4f6a;
     border-style: solid; */
     text-align: center;

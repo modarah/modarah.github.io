@@ -2,6 +2,7 @@
   margin-left: 30px;
 
   display: grid;
+  animation: fadein 1.5s;
 }
 .cv-download {
   margin-top: 20px;
@@ -18,14 +19,16 @@
   .about {
     display: flex;
     flex-direction: column;
-    margin: 180px 140px;
-
+    /* margin: 180px 140px; */
+    margin: 0px 140px;
   }
 
 }
 
 @media screen and (min-width: 768px) {
-
+  .about {
+    margin-left: 70px;
+  }
   .section-title {
     margin-bottom: 25px;
     font-size: 60px;
