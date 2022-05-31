@@ -1,0 +1,55 @@
+.projects {
+  margin-left: 30px;
+
+}
+.blog-cards {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog-img {
+  height: 300px;
+  width: 90%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.card-link {
+  width: fit-content;
+  color: #e8d5b5;
+  font-size: 1.6rem;
+  padding: 0.4rem 1.1rem;
+  background: #3d1f38;
+  background: #925c8e;
+  border-radius: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.card-link:hover {
+  background-color: #573150;
+}
+.card-title {
+  font-size: 25px;
+}
+.card-paragraph {
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .projects {
+    margin: 180px 140px;
+    /* margin-top: 110px; */
+  }
+  .blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* padding: 3rem;
+      place-items: center; */
+    column-gap: 2rem;
+    row-gap: 3rem;
+  }
+}

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import { Navbar, Hero, Technologies, Projects, Footer, About, Datenschutz, Impressum} from './components';
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      {/* <div className="section-divider" style={{marginTop: 120}}></div> */}
+      <main>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/technologies" element={<Technologies />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path='/datenschutz' element={<Datenschutz />} />
+          <Route path='/impressum' element={<Impressum />} />
+        </Routes>
+      </main>
+      {/* <div className="section-divider"></div> */}
+      <Footer style={{marginBottom: 0}} />
     </div>
   );
 }

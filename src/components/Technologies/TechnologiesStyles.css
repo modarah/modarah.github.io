@@ -1,0 +1,39 @@
+.technologies-container {
+  display: flex;
+  justify-content: center;
+}
+.technologies {
+  margin-left: 30px;
+}
+.tech-logo {
+  font-size: 2.5rem;
+}
+.list-title {
+  font-size: 25px;
+}
+.list-paragraph {
+  font-size: 20px;
+}
+.list-item {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .technologies {
+    margin: 180px 140px;
+  }
+  .section-title {
+    margin-bottom: 25px;
+    font-size: 60px;
+  }
+  .tech-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 3rem 0;
+  }
+  .list-item {
+
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,47 @@
+.about {
+  margin-left: 30px;
+
+  display: grid;
+}
+.cv-download {
+  margin-top: 20px;
+}
+.cv-download a {
+  color: #e8d5b5;
+}
+.timeline-container {
+  /* margin: 0 20px; */
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 1300px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin: 180px 140px;
+
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-title {
+    margin-bottom: 25px;
+    font-size: 60px;
+  }
+  .timeline {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .year {
+    font-size: 21px;
+  }
+  /* .text {
+    font-size: 20px;
+  } */
+  .cv-download {
+    margin-top: 90px;
+    font-size: 20px;
+  }
+}

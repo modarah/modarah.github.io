@@ -1,0 +1,85 @@
+.modar {
+  border-radius: 50%;
+  max-width: 100px;
+}
+.big-name {
+  font-family: "Zen Kurenaido", sans-serif;
+  /* color: #ffcc76; */
+}
+.hero-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   
+}
+.hero-text p {
+  font-style: italic;
+}
+.button {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .big-name {
+    font-size: calc(10vw - 8px);
+  }
+}
+@media screen and (min-width: 800px) {
+  .modar {
+    border-radius: 50%;
+    max-width: 400px;
+  }
+  .big-name {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 70px;
+  }
+  .hero-area {
+    display: flex;
+    flex-direction: unset;
+    /* height: 75vh; */
+    justify-content: space-between;
+    margin: 180px 140px;
+  }
+  .hero-text {
+    /* margin-left: 185px; */
+    /* margin-bottom: 200px; */
+    font-size: 30px;
+  }
+  .about-me-btn {
+    color: white;
+    font-size: 30px;
+  }
+  .button {
+    display: block;
+    width: 175px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #d4c0c0;
+    background-color: #3d1f38;
+    background-color: #925c8e;
+    background-color: #925c8e;
+    /* border-color: #1f4f6a;
+    border-style: solid; */
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s;
+    margin-top: 20px;
+  }
+
+  .button:hover {
+    background-color: #573150;
+  }
+
+  .button:active {
+    background-color: #a9a9a9;
+    color: #808080;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .big-name {
+    font-size: 100px;
+  }
+  .hero-text {
+    font-size: 50px;
+  }
+}

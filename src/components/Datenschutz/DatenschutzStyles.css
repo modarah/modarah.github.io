@@ -1,0 +1,9 @@
+.datenschutz, .impressum {
+  margin: 30px;
+}
+
+@media screen and (min-width: 800px) {
+    .datenschutz, .impressum {
+        margin: 0 185px;
+    }
+}
