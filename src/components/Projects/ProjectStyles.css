@@ -1,6 +1,6 @@
 .projects {
   margin-left: 30px;
-  animation: fadein 1.5s;
+  animation: fadein .5s;
 }
 .blog-cards {
   display: grid;

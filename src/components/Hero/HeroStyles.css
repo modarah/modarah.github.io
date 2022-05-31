@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   
+  animation: fadein .5s;
 }
 .hero-text p {
   font-style: italic;
@@ -40,7 +40,6 @@
     justify-content: space-between;
     /* margin: 180px 140px; */
     margin: 0px 140px;
-    animation: fadein 1.5s;
   }
   .hero-text {
     /* margin-left: 185px; */
@@ -55,7 +54,7 @@
     display: block;
     width: 175px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     color: #d4c0c0;
     background-color: #3d1f38;
     /* background-color: #925c8e;
